@@ -1,0 +1,189 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+
+#top{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(https://mrwallpaper.com/images/high/team-7-kids-naruto-laptop-g1zoxts8ex9rmmci.webp);
+    background-size: cover;
+    background-position: 15% 25%;
+}
+
+#overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#text{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    padding: 0 10vw;
+    color: rgb(255, 255, 255);
+}
+
+#textright{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#textright p{
+    font-size: 12px;
+    width: 40%;
+}
+
+#text h1{
+    font-weight: 500;
+    font-size: 5vw;
+}
+
+#bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+    background-color: blue;
+}
+
+
+#bone{
+    padding: 30px;
+    width: 25%;
+    min-height: inherit;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e2807d40-3bfb-4c3f-b409-49aa5c1da49b/dhncn0k-6bab37aa-ade1-48a4-af22-2a014628f99f.png/v1/fill/w_1920,h_1077,q_80,strp/naruto_8k_wallpaper_by_dada_wallpaperart_dhncn0k-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2UyODA3ZDQwLTNiZmItNGMzZi1iNDA5LTQ5YWE1YzFkYTQ5YlwvZGhuY24way02YmFiMzdhYS1hZGUxLTQ4YTQtYWYyMi0yYTAxNDYyOGY5OWYucG5nIiwiaGVpZ2h0IjoiPD0xMDc3Iiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvZTI4MDdkNDAtM2JmYi00YzNmLWI0MDktNDlhYTVjMWRhNDliXC9kYWRhLXdhbGxwYXBlcmFydC00LnBuZyIsIm9wYWNpdHkiOjk1LCJwcm9wb3J0aW9ucyI6MC40NSwiZ3Jhdml0eSI6ImNlbnRlciJ9fQ.G-XVWV2khcQ_PyN6GXoWUT5RaxBtOe9O9A3ppgtrIT8);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#bone p{
+    font-size: 15px;
+    margin-top: 30px;
+    color: white;
+}
+
+
+#btwo{
+    width: 25%;
+    min-height: inherit;;
+    background-image: url(https://mrwallpaper.com/images/high/joyful-chibi-naruto-performing-shadow-clone-jutsu-on-laptop-display-1hdg0nfs5bkmxxod.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#bthree{
+    width: 20%;
+    min-height: inherit;;
+}
+
+#bthreetop{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://wallpapers.com/images/high/jinchuriki-characters-naruto-laptop-ud2hhju9a6tyg8ma.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#bthreebottom{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/682/435/620/naruto-anime-uzumaki-naruto-jiraiya-naruto-shippuuden-hd-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#bfour{
+    font-size: 15px;
+    width: 30%;
+    min-height: inherit;
+    padding: 40px;
+    background-image: url(https://wallpapers-clan.com/wp-content/uploads/2024/04/naruto-temari-anime-desktop-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.notf{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.notf #photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+}
+.notf p{
+    width: 86%;
+    font-size: 12px;
+}
+
+@media(max-width: 500px){
+    #overlay #text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    #text h1{
+        font-size: 10vw;
+    }
+
+    #bottom{
+        min-height: 20vh;
+    }
+    
+    #overlay #text #textright{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    #overlay #text #textright p{
+        width: initial;
+        margin-top: 20px;
+    }
+
+    #overlay #text #textright #icons{
+        margin-top: 30px;
+    }
+
+    #bottom{
+        flex-direction: column;
+    }
+
+    #bone{
+        width: 100%;
+    }
+    #btwo{
+        width: 100%;
+    }
+    #bthree{
+        flex-direction: column;
+        width: 100%;
+    }
+    #bfour{
+        width: 100%;
+    }
+}
